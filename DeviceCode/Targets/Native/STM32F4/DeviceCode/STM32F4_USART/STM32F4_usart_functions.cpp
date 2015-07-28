@@ -31,6 +31,7 @@ static const BYTE g_STM32F4_Uart_TxD_Pins[] = STM32F4_UART_TXD_PINS;
     static const BYTE g_STM32F4_Uart_CTS_Pins[] = STM32F4_UART_CTS_PINS;
     static const BYTE g_STM32F4_Uart_RTS_Pins[] = STM32F4_UART_RTS_PINS;
 #endif
+#define TOTAL_USART_PORT                5
 
 void STM32F4_USART_Handle_RX_IRQ (int ComPortNum, USART_TypeDef* uart)
 {
